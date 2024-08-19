@@ -146,3 +146,5 @@ values
 (7,16,2000000),
 (11,17,500000)
 ;
+insert into tblUser (username,password,role,fullname)
+values (admin1,123456,DBManager,DefaultName);
